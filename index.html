@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ember & Spice | Premium Restaurant in Clifton, Karachi</title>
+<meta name="description" content="Ember & Spice — Where Flavor Meets Elegance. Pakistani, BBQ, Continental, Italian, burgers, pizza, desserts and refreshing drinks in Clifton, Karachi. Order online via WhatsApp.">
+<meta name="keywords" content="Ember & Spice, restaurant Clifton Karachi, BBQ Karachi, Pakistani restaurant Karachi, burgers Clifton, pizza Karachi, food delivery Clifton">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://example.com/">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Ember & Spice | Where Flavor Meets Elegance">
+<meta property="og:description" content="Premium Pakistani, BBQ, Continental and Italian dining in Clifton, Karachi.">
+<meta property="og:url" content="https://example.com/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ember & Spice | Clifton, Karachi">
+<meta name="twitter:description" content="Where Flavor Meets Elegance.">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org","@type":"Restaurant","name":"Ember & Spice",
+ "description":"Where Flavor Meets Elegance — Pakistani, BBQ, Continental, Italian, burgers and desserts.",
+ "servesCuisine":["Pakistani","BBQ","Continental","Italian","Burgers"],
+ "telephone":"+92 315 8923011","email":"tanzeelnadeem94@gmail.com",
+ "address":{"@type":"PostalAddress","streetAddress":"Block 4, Clifton","addressLocality":"Karachi","addressCountry":"PK"},
+ "openingHours":"Mo-Su 12:00-00:00",
+ "sameAs":["https://www.instagram.com/emberandspice/"]
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Ember and Spice home"><span class="brand-mark">E<span>&</span>S</span><span><b>EMBER & SPICE</b><small>WHERE FLAVOR MEETS ELEGANCE</small></span></a>
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="#home">Home</a><a href="#menu">Menu</a><a href="#offers">Offers</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="cart-btn" id="openCart" aria-label="Open shopping cart">Cart <span id="cartCount">0</span></button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">CLIFTON · KARACHI · EST. 2026</p>
+    <h1>Where Flavor<br><em>Meets Elegance.</em></h1>
+    <p class="hero-copy">A refined table for bold Pakistani flavours, flame-kissed BBQ, Italian comfort and handcrafted favourites.</p>
+    <div class="hero-actions"><a class="btn btn-gold" href="#menu">Explore Menu</a><a class="btn btn-ghost" href="#contact">Visit Us</a></div>
+  </div>
+  <div class="hero-badge"><strong>100+</strong><span>Signature<br>Dishes</span></div>
+</section>
+
+<section class="intro" id="about">
+  <div><p class="eyebrow">THE EMBER EXPERIENCE</p><h2>Crafted with fire.<br><em>Served with soul.</em></h2></div>
+  <p>From charcoal grills and aromatic desi classics to creamy pasta, loaded burgers and decadent desserts, Ember & Spice brings a wide world of flavour together under one elegant roof.</p>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="section-head"><div><p class="eyebrow">OUR MENU</p><h2>Choose your <em>craving.</em></h2></div><p class="section-note">Explore a collection of 100 signature dishes. Select a category to reveal its complete menu.</p></div>
+  <div class="category-grid" id="categoryGrid"></div>
+  <div class="items-panel" id="itemsPanel" aria-live="polite">
+    <div class="items-head"><div><p class="eyebrow" id="itemsEyebrow">CATEGORY</p><h3 id="itemsTitle">Select a category</h3></div><button class="close-category" id="closeCategory">Back to categories</button></div>
+    <div class="items-grid" id="itemsGrid"></div>
+  </div>
+</section>
+
+<section class="offers" id="offers">
+ <div class="section-head"><div><p class="eyebrow">SIGNATURE OFFERS</p><h2>More flavour.<br><em>More to share.</em></h2></div></div>
+ <div class="offer-grid" id="offerGrid"></div>
+</section>
+
+<section class="contact" id="contact">
+ <div><p class="eyebrow">FIND US</p><h2>Come for the flavour.<br><em>Stay for the moment.</em></h2></div>
+ <div class="contact-grid">
+   <div><span>ADDRESS</span><p>Block 4, Clifton,<br>Karachi, Pakistan</p></div>
+   <div><span>CALL / WHATSAPP</span><p><a href="tel:+923158923011">0315 8923011</a></p></div>
+   <div><span>OPEN DAILY</span><p>12:00 PM — 12:00 AM</p></div>
+   <div><span>SOCIAL</span><p><a href="https://www.instagram.com/emberandspice/" target="_blank" rel="noopener">@emberandspice</a></p></div>
+ </div>
+</section>
+</main>
+
+<footer><div class="footer-brand">EMBER <span>&</span> SPICE</div><p>© 2026 Ember & Spice. Where Flavor Meets Elegance.</p><div><a href="#menu">Menu</a><a href="#contact">Contact</a></div></footer>
+
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true">
+ <div class="drawer-backdrop" id="closeCart"></div>
+ <aside class="drawer">
+  <div class="drawer-head"><div><p class="eyebrow">YOUR ORDER</p><h2>Cart</h2></div><button id="closeCartBtn" aria-label="Close cart">×</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-summary"><div><span>Subtotal</span><strong id="subtotal">Rs. 0</strong></div><div><span>Delivery</span><strong id="delivery">Rs. 0</strong></div><div class="grand"><span>Total</span><strong id="grandTotal">Rs. 0</strong></div></div>
+  <button class="btn btn-gold full" id="checkoutBtn">Confirm Order</button>
+ </aside>
+</div>
+
+<div class="modal" id="checkoutModal" aria-hidden="true">
+ <div class="modal-backdrop" id="closeModal"></div>
+ <div class="checkout-card">
+  <button class="modal-close" id="closeModalBtn">×</button>
+  <p class="eyebrow">FINAL STEP</p><h2>Delivery details</h2><p class="muted">Your complete order will be prepared as a WhatsApp message.</p>
+  <form id="orderForm">
+   <label>Full Name<input name="name" required placeholder="Your name"></label>
+   <label>WhatsApp / Mobile Number<input name="phone" required placeholder="03XX XXXXXXX"></label>
+   <label>Delivery Address<textarea name="address" required rows="3" placeholder="House, street, area, Clifton..."></textarea></label>
+   <label>Order Notes <span class="optional">(optional)</span><textarea name="notes" rows="2" placeholder="Any special instructions?"></textarea></label>
+   <div class="checkout-total"><span>Grand Total</span><strong id="checkoutTotal">Rs. 0</strong></div>
+   <button class="btn btn-gold full" type="submit">Send Order on WhatsApp</button>
+  </form>
+ </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
